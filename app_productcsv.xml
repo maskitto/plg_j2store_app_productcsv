@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="j2store" method="upgrade">
+    <name>Product CSV Import</name>
+    <version>1.0</version>
+    <creationDate>OUT 2016</creationDate>
+    <author>maskitto</author>
+    <authorEmail>webmaster@alphahost.net.br</authorEmail>
+    <authorUrl>http://www.alphahost.net.br</authorUrl>
+    <copyright>2016 Alphahost Web Services</copyright>
+    <license>GNU General Public License v3</license>
+    <description>PLG_J2STORE_APP_PRODUCTCSV_DESC</description>
+    <files>
+        <filename plugin="app_productcsv">app_productcsv.php</filename>
+        <folder>app_productcsv</folder>
+        <folder>languages</folder>		
+        <filename>index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">languages/en-GB.plg_j2store_app_productcsv.ini</language>
+        <language tag="en-GB">languages/en-GB.plg_j2store_app_productcsv.sys.ini</language>
+    </languages>		
+</extension>
